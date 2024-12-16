@@ -1,0 +1,60 @@
+/* admin.css */
+
+body {
+    background-color: #ff523b; /* White background for the entire page */
+    color: #333; /* Dark text color for contrast against white */
+    font-family: Arial, sans-serif; /* Ensures a clean, readable font */
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff; /* White color for the Admin Login headline */
+}
+
+form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+    background-color: #ffffff; /* White background for the form */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333; /* Dark color for label text */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Light gray border for input fields */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #333; /* Dark text inside input fields */
+    background-color: #f9f9f9; /* Light background for input fields */
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF; /* Blue background for the button */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
